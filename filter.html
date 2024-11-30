@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter Countries</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menubar">
+      <img
+        src="./images/GEOSTORY__2_-removebg-preview.png"
+        style="width: 100px; float: left"
+      />
+      <a href="index.html"><p>Home</p></a>
+      <a href="filter.html"><p>Filter</p></a>
+      <a href="about.html"><p>About</p></a>
+    </div>
+    <div style="display: flex; justify-content: center; flex-direction: row
+    ">
+      <script src="filter.js"></script>
+      <h1>Filter Countries</h1>
+      <div id="sorted-list">
+        <div>
+          <div id="sort-by" style="display: flex; flex: 1; flex-direction: row">
+            <label for="sortCriteria">Sort by:</label>
+            <select id="sortCriteria">
+              <option value="population">Population</option>
+              <option value="area">Area</option>
+              <option value="alphabets">Alphabetical Order</option>
+            </select>
+          </div>
+          <div id="countriesDisplay"></div>
+          <div id="continentFilter"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

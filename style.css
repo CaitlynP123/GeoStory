@@ -1,0 +1,177 @@
+body {
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#short-details {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#country-info {
+  width: 55%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  color: #eed1e5;
+  text-shadow: 4px 4px #8350a3;
+  font-size: 50px;
+  margin: 8px;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0px;
+}
+
+#map {
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#map-box {
+  height: 80vh;
+  width: 40%;
+  background-color: #df8ec7;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#country-details {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #ffd4f4;
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  flex: 1;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  #map {
+    height: 80vh;
+    width: 90%;
+  }
+
+  #country-details {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  #map {
+    height: 70vh;
+    width: 95%;
+  }
+
+  #country-details {
+    width: 95%;
+  }
+}
+
+#country {
+  align-self: center;
+  background-color: #ffd4f4;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+footer {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 300;
+  background-color: #be8edf;
+  padding: 20px;
+}
+
+#img-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-self: unset;
+}
+
+p {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+#information-sort {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+label {
+  padding: 8px;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 300;
+}
+
+option {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 300;
+  background-color: #ffd4f4;
+}
+
+#countriesDisplay {
+  max-height: 450px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#sorted-list {
+  background-color: #ffd4f4;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 80%;
+  height: 73vh;
+}
+
+h2 {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+}
+
+#menubar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#menubar a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+#menubar a:hover {
+  cursor: pointer;
+}

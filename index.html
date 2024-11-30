@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoStory</title>
+    <link
+      rel="icon"
+      type="img/icon"
+      href="./images/GEOSTORY__2_-removebg-preview.png"
+    />
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+  </head>
+
+  <body>
+    <div id="menubar">
+      <img
+        src="./images/GEOSTORY__2_-removebg-preview.png"
+        style="width: 100px; float: left"
+      />
+      <a href="map.html"><p>Home</p></a>
+      <a href="filter.html"><p>Filter</p></a>
+      <a href="about.html"><p>About</p></a>
+    </div>
+
+    <div style="align-self: center; width: 100%">
+      <h1>GeoStory</h1>
+      <h4>Click on a country to get started</h4>
+    </div>
+
+    <div id="short-details" style="margin-top: 10px">
+      <div id="country-info">
+        <div id="img-container"></div>
+        <div id="country-details"></div>
+      </div>
+
+      <div id="map-box">
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div id="information-sort">
+      <div style="width: 100%">
+        <h1>Coat of Arms</h1>
+        <div id="country">
+          <div id="coat-of-arms"></div>
+        </div>
+      </div>
+      <div style="width: 100%">
+        <h1>Holidays</h1>
+        <div id="country">
+          <div id="holidays"></div>
+        </div>
+      </div>
+      <div style="width: 100%">
+        <h1>World Heritage Sites</h1>
+        <div id="country">
+          <div id="heritage-sites"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="maps.js"></script>
+</html>
